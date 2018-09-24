@@ -1,0 +1,37 @@
+﻿1. The output program gives a pop up window of the spim console with the text “hello mips” . 
+2. 10010016
+3. 0040003c
+4. 00000068 = lb = sb
+5.       Address             Value
+	                 
+	0x1000100B            0x00
+	
+	0x1000100A            0x00
+	
+	0x10001009            0x73
+	
+	0x10001008            0x70
+	
+	0x10001007            0x69
+	
+	0x10001006            0x6d
+	 
+	0x10001005            0x20
+	
+	0x10001004            0x6f
+	
+	0x10001003            0x6c
+	
+	0x10001002            0x6c
+	
+	0x10001001            0x65
+	
+	0x10001000            0x68
+	
+	
+     6.  !BS$NUL
+     7.   2^22 - 1
+     8. Data represents how a program is stored and in what format. It can be in .word, .byte    etc.     For .text it just stores the information in a written format with no executables. In SPIM’s memory .data is placed in the data segments and gives the hexadecimal value of the information and .text is placed in the Text segments displaying the content along with the hexadecimal value.
+
+
+     9. By loading the registry entry containing the register $s1.
